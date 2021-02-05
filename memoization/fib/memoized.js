@@ -1,4 +1,4 @@
-const calcFib = (function() {
+const calcFib = (function() { // this has linear time complexity
     const memo = {}
     return (n) => {
         if (n === 0 || n === 1) {
